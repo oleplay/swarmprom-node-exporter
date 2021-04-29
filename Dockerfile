@@ -1,4 +1,4 @@
-FROM prom/node-exporter:v1.1.2
+FROM --platform=linux/arm prom/node-exporter:v1.1.2
 
 ENV NODE_ID=none
 
